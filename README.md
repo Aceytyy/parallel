@@ -1,7 +1,7 @@
 
-# 📊 Distributed Student Performance Analytics Dashboard (PHP + MongoDB)
+# Distributed Student Performance Analytics Dashboard (PHP + MongoDB)
 
-## 🚀 Project Overview
+## Project Overview
 
 This is a **web-based student performance analytics dashboard** built using PHP, MongoDB, and Chart.js. It is designed to handle and visualize academic data from a MongoDB database containing over 7 million records. This project was built for the course **CSELEC 3 – Parallel and Distributed Computing**.
 
@@ -37,15 +37,15 @@ MongoDB Collections:
 - `subjects`: Maps subject codes to names (`_id`, `Description`)
 - `gpa_summary`: Cached GPA summary per student per semester
 
-## 🧠 What's Next
+## What's Next
 
-- 🔄 **Pagination & Lazy Loading** for large reports
-- 🧠 **Outlier Detection (Z-Score)** in reports
-- 🟨 **Admin Analytics Dashboard Cards**
-- 🛠️ **UI Polish** based on final wireframe
-- 🚫 **Caching** (Redis or Precomputed Collections) – postponed for now
+-  **Pagination & Lazy Loading** for large reports
+- **Outlier Detection (Z-Score)** in reports
+- **Admin Analytics Dashboard Cards**
+-  **UI Polish** based on final wireframe
+-  **Caching** (Redis or Precomputed Collections) – postponed for now
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 /Parallel/
@@ -61,7 +61,7 @@ MongoDB Collections:
 
 - No insert/update/delete operations. This dashboard is for **display only**.
 - Built with performance in mind (aggregation pipelines, summary caching).
-- UI inspired by ChatGPT’s dark theme.
+- UI inspired by Github’s dark theme.
 
 ---
 
