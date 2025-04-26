@@ -9,7 +9,7 @@ $cursor = $db->grades->aggregate([
         'avgGrade' => ['$avg' => '$Grades'],
         'passRate' => [
             '$avg' => [
-                '$cond' => [['$gte' => ['$Grades', 75]], 1, 0]
+                '$cond' => [['$gte' => ['$Grades', 80]], 1, 0]
             ]
         ]
     ]],
